@@ -4,8 +4,8 @@ const controller = {
     index(req, res) {
         res.send('index');
     },
-    list(req, res) {             
-        res.send(model.list);        
+    list(req, res) {        
+        res.render('list', { tasks: model.list });      
     },
     details(req, res) {
         const id = parseInt(req.params.id, 10);

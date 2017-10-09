@@ -7,6 +7,8 @@ app.use('/todo', router);
 
 app.use(express.static('public'));
 
+app.set('view engine', 'ejs');
+
 app.listen(8080, () => {
     console.log('listening');
 });

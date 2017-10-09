@@ -1,7 +1,13 @@
 const model = {
     list: [
-        'item 1',
-        'item 2'
+        {
+            title: 'task 1',
+            status: 'not done'
+        },
+        {
+            title: 'task 2',
+            status: 'done'
+        }
     ]
 }
 
