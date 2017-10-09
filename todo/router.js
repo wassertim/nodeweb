@@ -1,6 +1,9 @@
+
 const Router = require('express').Router;
-const controller = require('./controller');
+const TodoController = require('./controller');
 const router = new Router();
+
+const controller = new TodoController();
 
 router.get('/', controller.index);
 
