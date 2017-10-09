@@ -5,6 +5,8 @@ const app = express();
 
 app.use('/todo', router);
 
+app.use(express.static('public'));
+
 app.listen(8080, () => {
     console.log('listening');
 });

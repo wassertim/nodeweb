@@ -8,7 +8,7 @@ const controller = {
         res.send(model.list);        
     },
     details(req, res) {
-        const id = +req.params.id;
+        const id = parseInt(req.params.id, 10);
         res.send(model.list[id]);
     }
 }
