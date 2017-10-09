@@ -1,15 +1,11 @@
 const Router = require('express').Router;
 const controller = require('./controller');
-const router = new Router()
+const router = new Router();
 
 router.get('/', controller.index);
 
 router.get('/list', controller.list);
 
 router.get('/details/:id', controller.details);
-
-router.get(
-    '/form/',
-)
 
 module.exports = router;

@@ -1,3 +1,14 @@
-body {
-    background: greenyellow;
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul > li {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px 0;
 }

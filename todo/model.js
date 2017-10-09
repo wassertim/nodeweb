@@ -1,6 +1,5 @@
 const model = {
-    list: [
-        {
+    list: [{
             title: 'task 1',
             status: 'not done'
         },
@@ -9,6 +8,6 @@ const model = {
             status: 'done'
         }
     ]
-}
+};
 
 module.exports = model;
