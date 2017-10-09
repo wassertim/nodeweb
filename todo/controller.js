@@ -9,7 +9,7 @@ const controller = {
     },
     details(req, res) {
         const id = parseInt(req.params.id, 10);
-        res.send(model.list[id]);
+        res.render('details', {task: model.list[id]});    
     }
 }
 
