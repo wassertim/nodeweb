@@ -8,4 +8,8 @@ router.get('/list', controller.list);
 
 router.get('/details/:id', controller.details);
 
+router.get(
+    '/form/',
+)
+
 module.exports = router;

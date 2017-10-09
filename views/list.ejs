@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <ul>
         <% for(var i=0; i<tasks.length; i++) {%>
-           <li><%= tasks[i].title %></li>
+           <li>
+               <a href="details/<%= i %>">            
+                    <%= tasks[i].title %>
+                </a> / 
+                <a href="edit/<%= i %>">
+                    edit
+                </a>         
+            </li>
         <% } %>
     </ul>
+    <a>new</a>
 </body>
 </html>
