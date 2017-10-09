@@ -1,0 +1,29 @@
+{
+  "name": "nodeweb",
+  "version": "1.0.0",
+  "description": "my fancy stuff",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "deploy": "echo \"foo\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspringer82/nodeweb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspringer82/nodeweb/issues"
+  },
+  "homepage": "https://github.com/sspringer82/nodeweb#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
